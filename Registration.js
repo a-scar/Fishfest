@@ -43,7 +43,8 @@ function CalculateRegID(name, birthday) {
     // Create a new ID for the registrant which contains the Name and birthday
 
     //Formatting the name capitalize first letters and remove spaces
-    var reg_name = this.tileCase(name);
+    var reg_name = this.titleCase(name);
+
     var reg_name = reg_name.replace(" ", "");
 
     //Formatting the birthday to be yyyymmdd
